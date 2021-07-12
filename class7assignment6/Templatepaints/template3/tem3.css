@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+
+}
+
+/* Header part start here */
+.header{
+height: 50px;
+border: 1px solid black;
+}
+
+.logo{
+height: 50px;
+width:23% ;
+background-color:#00A2E8 ;
+float: left;
+}
+.menu{
+    height: 50px;
+    width:55% ;
+    background-color:#99D9EA ;
+    overflow: hidden;
+    float: left;
+}
+.rightmenu{
+    height: 50px;
+    width: 22%;
+    background-color:#00A2E8 ;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* Header part End here */
+
+
+
+/* Content part start here */
+.content{
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+.leftsidebar{
+height: 500px;
+width:12% ;
+background-color: #7092BE;
+float: left;
+}
+.left-content{
+height: 500px;
+width:36% ;
+background-color: #A9D71B;
+overflow: hidden;
+float: left;
+}
+
+.box1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 35%;
+    background-color: #22B14C;
+    float: left;
+    margin-right: 30%;
+
+}
+.redbox1{
+    height: 200px;
+    width: 50%;
+    background-color: #ED1C24;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.box2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    height: 300px;
+    width: 35%;
+    background-color:#22B14C;
+    overflow: hidden;
+}
+.redbox2{
+    height: 200px;
+    width: 60%;
+    background-color: #ED1C24;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+
+.right-content{
+height: 500px;
+width:37% ;
+background-color: #B97A57;
+overflow: hidden;
+float: left;
+}
+.box-1{
+height: 350px;
+width: 35%;
+background-color: #A349A4;
+margin-top:100px ;
+margin-bottom:50px ;
+margin-left:10% ;
+margin-right:10% ;
+border-radius: 10%;
+float: left;
+}
+.box-2{
+height: 350px;
+width: 35%;
+margin-top:100px ;
+margin-right: 10%;
+background-color: #A349A4;
+border-radius: 10%;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+.rightsidebar{
+ height: 500px; 
+ width:15% ; 
+ background-color: #7092BE; 
+ overflow: hidden;
+}
+
+
+
+/* Content part End here */
+
+/* Footer part start here */
+.footer{
+    height: 60px;
+    border: 1px solid black;
+}
+
+.footer1{
+    height: 60px;
+width:12% ;
+background-color:#C3C3C3;
+float: left;
+}
+
+.footer2{
+    height: 60px;
+    width:36% ;
+    background-color:#A349A4;
+    overflow: hidden;
+    float: left;
+}
+
+.footer3{
+    height: 60px;
+    width:37% ;
+    background-color:#FFF200;
+    overflow: hidden;
+    float: left;
+}
+
+.footer4{
+    height: 60px; 
+    width:15% ; 
+    background-color:#C3C3C3;
+    overflow: hidden;
+}
+/* Footer part End here */

@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));;
+}
+a{
+    text-decoration: none;
+}
+/* end basic css*/
+
+
+/* start header part css*/
+.header{
+    text-align:center;
+    color:rgb(245, 245, 0);
+    background-color:lightgreen;
+    width: 120px;
+    margin-left: 91%;
+    margin-top: 20px;
+    border-radius: 8px;
+    
+}/* end header part css*/
+
+
+/* start one part css*/
+.one{
+  background-color:blanchedalmond;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 40px;
+  width: 800px;
+   
+}
+.one h1{
+    padding-left:  30px;
+    padding-top: 30px;
+    text-shadow: 3px 3px whitesmoke;
+    text-transform: capitalize;
+}
+.one img{
+    width: 400px;
+    padding-left: 30px;
+    
+}
+.one p{
+    padding-left: 30px;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+#one_webpage{
+    text-align: center;
+    margin-left:350px;
+    width: 130px;
+    box-shadow:7px 6px green;
+    margin-top: 30px;;
+    background-color:#FFFF00;
+    border-radius: 20px;
+}/* end one part css*/
+
+
+
+
+
+
+
+/* start two part css*/
+.two{
+    background-color:blanchedalmond;
+    border-radius: 50px 50px 50px 50px;
+    width: 800px;
+    margin-left: 40px;
+}
+.two h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-transform: capitalize; 
+}
+.two img{
+    width: 400px;
+    padding-left: 30px;
+  
+}
+.two p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+} 
+#two_webpage{
+    text-align: center;
+    margin-left:350px;
+    width: 130px;
+    box-shadow:7px 6px red;
+    margin-top: 30px;;
+    background-color:lightgreen;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}/* end two part css*/
+
+
+/* start three part css*/
+
+.three{
+    background-color:blanchedalmond;
+    border-radius: 50px 50px 50px 50px;
+    width: 800px;
+    margin-left: 40px;
+}
+
+.three h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-transform: capitalize; 
+}
+.three img{
+    width: 400px;
+    padding-left: 30px;
+  
+}
+.three p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+} 
+
+
+#three_webpage{
+    text-align: center;
+    margin-left:350px;
+    width: 130px;
+    box-shadow:7px 6px red;
+    margin-top: 30px;;
+    background-color:lightgreen;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+
+/* end three part css*/
+
+/* start four part css*/
+.four{
+    background-color:blanchedalmond;
+    border-radius: 50px 50px 50px 50px;
+    width: 800px;
+    margin-left: 40px;
+}
+
+.four h1{
+    padding-left: 30px;
+    padding-top: 30px;
+    text-transform: capitalize; 
+}
+.four img{
+    width: 400px;
+    padding-left: 30px;
+  
+}
+.four p{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+} 
+#four_webpage{
+    text-align: center;
+    margin-left:350px;
+    width: 130px;
+    box-shadow:7px 6px red;
+    margin-top: 30px;;
+    background-color:lightgreen;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+/* end four part css*/
+
+
+/* start footer part css*/
+
+
+#footer
+    {
+        margin-left: 1000px;
+        margin-bottom: 100px;
+        text-transform: capitalize;
+        background-color:lightskyblue;
+        border-radius: 50px 50px 50px 50px;
+        width: 400px;
+        text-align: center;
+    }
+}/* start footer part css*/

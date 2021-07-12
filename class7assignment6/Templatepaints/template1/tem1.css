@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+/* header part css start here */
+.header-area{  
+height: 60px;
+
+}
+.logo{
+width: 40%;
+height: 60px;
+background-color: #ED1C24;
+float: left;
+}
+.menu{
+width: 60%;
+height: 60px;
+background-color: #A349A4;
+overflow: hidden;
+}/* Header part css end here */
+
+
+
+/* Content part css start here */
+.content-area{
+height: 500px;
+border: 1px solid #000;
+
+}
+
+
+.left-content{
+height: 500px;
+width: 50%;
+background-color: #22B14C;
+float: left;
+}
+.mainbox{
+
+margin:100px 10%;
+
+}
+.box1{
+height: 300px;
+width: 35%;
+background-color:#B97A57 ;
+float: left;
+margin-right: 10%;
+
+
+}
+.box2{
+    height: 300px;
+    width: 35%;
+    background-color: #99D9EA;
+    overflow: hidden;
+  
+
+}
+
+.right-content{
+    height: 500px;
+    width: 35%;
+    background-color:#FFC90E;
+    overflow: hidden;
+    float: left;
+  
+    
+}
+.top{
+    height: 400px;
+    background-color:#FFC90E ;
+}
+.bottom{
+    height: 100px;
+    background-color: #B5E61D;
+}
+.sidebar{
+height: 500px;
+width: 15%;
+background-color: #C8BFE7;
+overflow: hidden;
+}/* Content part css end here */
+
+
+
+
+
+
+
+.footer-area{
+height: 70px;
+border: 1px solid black;
+}
+.footer1{
+width: 30%;
+height: 70px;
+background-color:#A349A4 ;
+float: left;
+}
+.footerr2{
+    width: 55%;
+    height: 70px;
+    background-color:#7F7F7F;
+    overflow: hidden;
+    float: left;
+}
+.footer3{
+    width: 15%;
+    height: 70px;
+    background-color:#ED1C24 ;
+    overflow: hidden;
+    
+}

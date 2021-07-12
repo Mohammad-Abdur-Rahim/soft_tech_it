@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+
+/* Header part start here */
+.header{
+height: 70px;
+border: 1px solid black;
+}
+
+.logo{
+    height: 70px;
+    width: 45%;
+    background-color: #A349A4;
+    float: left;
+}
+.menu{
+    height: 70px;
+    width: 55%;
+    background-color: #ED1C24;
+    overflow:hidden;
+}
+
+
+
+/* Header part End here */
+
+
+
+
+
+/* Content part start here */
+.content{
+height: 500px;
+
+}
+
+
+.leftsidebar{
+
+height:500px ;
+width:15% ;
+background-color:#3F48CC ;
+float: left;
+}
+
+
+.maincontent{
+height:500px ;
+width: 70%;
+background-color:#C3C3C3; 
+overflow: hidden;
+float:left;
+}
+
+
+
+.leftbox{
+height: 325px;
+width: 25%;
+background-color: #B5E61D;
+float: left;
+margin-top:75px ;
+margin-left:18% ;
+margin-right: 15%;
+margin-bottom:75px ;
+
+}
+
+
+.rightbox{
+height: 325px;
+width: 25%;
+background-color: #EFE4B0;
+overflow: hidden;
+margin-top: 75px;
+margin-bottom:75px ;
+}
+
+
+
+
+.rightsidebar{
+height:500px ;
+width:15%; 
+background-color:#3F48CC;
+overflow: hidden; 
+}
+
+
+
+
+/*Content part End here */
+
+
+
+
+
+
+/* Footer part start here */
+.footer{
+
+    height:50px;
+  
+}
+
+.footerleft{
+height: 50px;
+width: 15%;
+background-color:#ED1C24 ;
+float: left;
+}
+.footermid{
+    height: 50px;
+    width: 70%;
+    background-color:#22B14C ;
+    overflow: hidden;
+    float: left;
+}
+.footerright{
+    height: 50px;
+    width: 15%;
+    background-color:#ED1C24 ;
+    overflow: hidden;
+}
+
+/* Footer part start End */

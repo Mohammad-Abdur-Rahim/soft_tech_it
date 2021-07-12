@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+.row{
+    overflow: hidden;
+}
+.col{
+    width: 90%;
+    padding: 5%;
+    float: left;
+}
+
+
+
+
+@media(min-width:576px){
+    .col{
+        width: 40%;
+       
+    }
+}
+@media(min-width:1000px){
+    .col{
+        width: 21%;
+        padding: 0 2%;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:960px){
+    .col{
+        width: 46%;
+        padding: 0 2%;
+    }
+}
+
+@media (max-width:768px){
+    .col{
+        width: 90%;
+        padding: 0 5%;
+        background-color: cadetblue;
+        color:navy;
+    }
+} */

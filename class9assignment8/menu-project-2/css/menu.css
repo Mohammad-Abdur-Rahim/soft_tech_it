@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+/* basic css end here */
+/* menu start here */
+.menu{
+    background-color: rgb(52, 123, 255);
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+ 
+   }
+
+.menu ul li a{
+color: cornsilk;
+font-size: 20px;
+padding: 15px;
+display: block;
+text-transform: capitalize;
+transition: 1s;
+/* border-bottom: 5px solid transparent; */
+}
+
+.menu ul li a:hover{
+    background-color: crimson;
+   transition: 1s;
+   /* border-color:rgb(0, 255, 98); */
+
+}
+#active{
+    border-bottom: 8px solid rgb(88, 79, 66);
+}
+/* submenu start */
+.menu ul ul li{
+    display:block ;
+    width: 180px;
+}
+.menu ul ul{
+    position: absolute;
+    background-color: rgb(52, 123, 255);;
+    top: 100%;
+    display: none;
+}
+.menu ul li:hover >ul {
+    display: block;
+}
+/* third menu */
+.menu ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.back{
+    background-image:none;
+}

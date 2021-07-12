@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+     
+   
+}
+/* Header part start */
+.main-header{
+    background-color: rgb(226, 238, 248);
+    padding: 90px 0;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    color: #424f61;
+}
+
+.text h4{
+    display: inline;
+}
+
+.text hr{
+    width: 5%;
+    background-color: #A7B1BC;
+    height: 2px;
+}
+
+.text p{
+    color: #4F5B6C;
+    margin-bottom: 8%;
+}
+
+/* Header part start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer part start */
+.footer{
+   margin-left: 17%;
+   text-align: center;
+ }
+
+.designer1{
+    width:18.5%;
+    float: left;
+}
+
+.designer1 img{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.designer1 h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    display: inline;
+}
+
+.designer1 h6{
+    color:#4D9ADF ;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: inline;
+  
+}
+
+#img img{
+   border-radius: 50%;
+}
+
+
+
+
+
+
+
+.designer2{
+    width: 18.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: hidden;
+    float: left;
+}
+
+.designer2 img{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.designer2 h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    display: inline;
+    }
+
+.designer2 h6{
+    color:#4D9ADF ;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: inline;
+     }
+
+    
+
+
+.designer3{
+    width: 18.5%;
+    margin-right: 2%;
+    overflow: hidden;
+    float: left;
+}
+
+.designer3 img{
+     border-radius: 50%;
+     margin-bottom: 25px;
+}
+
+.designer3 h4{
+     text-transform: capitalize;
+     font-size: 30px;
+     display: inline;
+    }
+
+.designer3 h6{
+     color:#4D9ADF ;
+     font-size: 15px;
+     text-transform: capitalize;
+     display: inline;
+     }
+
+
+
+
+    
+.designer4{
+    width: 18.5%;
+    overflow: hidden;
+}
+
+.designer4 img{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.designer4 h4{
+    text-transform: capitalize;
+    font-size: 30px;
+    display: inline;
+    }
+
+.designer4 h6{
+    color:#4D9ADF ;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: inline;
+     }
+    /* Footer part End */
+
+
+
+
+
+
+
+
+
+
+
+

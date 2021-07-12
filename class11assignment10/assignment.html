@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>responsive web design</title>
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="assaignment.css">
+    </head>
+    <body>
+<!-- Header part start here -->
+
+<div class="main">
+    <nav class="  navbar navbar-expand-sm navbar-dark bg-dark p-2">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- search icon start here -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <form action="#" class="form-inline">
+         <input class="form-control mr-sm-2" type="text" placeholder="Search">
+         <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <div class="navbar-collapse justify-content-end collapse" id="menu">
+        <ul class="navbar-nav text-light font-weight-bolder">
+        <li class="nav-item"><a class="nav-link text-capitalize text-light font-weight-bold" href="#">home</a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize text-light font-weight-bold" href="#">about</a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize text-light font-weight-bold" href="#">blog</a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize text-light font-weight-bold" href="#">service</a></li>
+    <!-- nav dropdown menu start here -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-capitalize text-light" href="#" data-toggle="dropdown">contact</a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+    </div>
+    </li>
+</ul>
+</div>
+</nav>
+</div>
+
+    <br><br><br><br><br>
+<!-- Header part end here -->
+    <div class="text-center text-capitalize text-secondary"><h1 class="font-weight-bold" >my all services details show here</h1></div>
+    <hr class="bg-info" style="width: 8%;"><br>
+<!-- tittle end here -->
+<!-- Service content start here -->
+   
+    <div class="card-deck pl-5" style="width: 1510px;"> <!-- 1st img data--> 
+    <div class="card ">
+        <img class="card-img-top" src="img/person1.png" alt="img1">
+    <div class="card-body">
+        <h1 class="card-tittle">John Duo</h1>
+        <p class="card-text"> john duo is an software engineer, He is a professonal very well UX designer.</p>
+        <button class="btn btn-primary" data-toggle="collapse" data-target
+        ="#text1">Read More</button>
+    <div class="collapse" id="text1">
+        <p>User experience (UX) design is the process design teams use to create products that provide meaningful and relevant experiences to users. This involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
+    </div>
+</div>
+</div>
+    <div class="card " > <!-- 2nd img data--> 
+        <img class="card-img-top" src="img/person2.png" alt="img2">
+    <div class="card-body">
+        <h1 class="card-tittle">Sinthyae Duo</h1>
+        <p class="card-text"> Sinthyae duo is an software engineer, She is a professonal UI designer.</p>
+        <button class="btn btn-primary" data-toggle="collapse" data-target
+        ="#text2">Read More</button>
+    <div class="collapse" id="text2">
+        <p>The “UI” in UI design stands for “user interface.” The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions.</p>
+    </div>
+</div>
+</div>
+    <div class="card "> <!-- 3rd img data--> 
+        <img class="card-img-top" src="img/person3.png" alt="img2">
+     <div class="card-body">
+        <h1 class="card-tittle">Bolt Duo</h1>
+        <p class="card-text">Bolt duo is an software engineer, He is a professonal wordpress developer.</p>
+        <button class="btn btn-primary" data-toggle="collapse" data-target
+        ="#text3">Read More</button>
+    <div class="collapse" id="text3">
+        <p>WordPress developers design and implement websites for companies using the WordPress creation tool. They are responsible for both front-end and back-end development, implementation of themes and plugins. Their goal is to create attractive and user-friendly websites according  client specifications.</p>
+    </div>
+</div>
+</div>
+    <div class="card "> <!-- 4th img data--> 
+        <img class="card-img-top" src="img/person4.png" alt="img2">
+    <div class="card-body">
+        <h1 class="card-tittle">Farjana Duo</h1> 
+        <p class="card-text">Farjana duo is an software engineer, She is a professonal Web-Marn developer.</p>
+         <button class="btn btn-primary" data-toggle="collapse" data-target
+        ="#text4">Read More</button>
+    <div class="collapse" id="text4">
+        <p>MERN is the acronym for MongoDB, Express JS, React JS and Node JS. The MERN stack is a combination of the above technologies, all based on JavaScript, used to build advanced web applications. It is an open source full stack development framework i.e. While MongoDB, Express JS and Node JS are the common components (between MEAN and MERN); Angular JS is replaced by React JS in MERN.</p>
+   </div>
+</div>
+</div>
+</div><!-- card deck div -->
+
+<br><br>
+<!-- Service content end here -->
+<!-- List tittle start here -->
+    <div>
+         <h1 class="text-capitalize text-center text-info font-weight-bold"> my list of item show here   </h1>
+    </div>
+<!-- List tittle end here -->
+<!-- List item start here -->
+    <div>
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success ">List of service 1 : <span class="text-danger">John Duo</span></li>
+        <li class="list-group-item list-group-item-secondary">List of service 2 :<span class="text-danger"> Sinthyae Duo</span></li>
+        <li class="list-group-item list-group-item-info">List of service 3 : <span class="text-danger">Bolt Duo</span></li>
+        <li class="list-group-item list-group-item-warning active">List of service 4 :<span class="text-white"> Farjana Duo</span></li>
+        <li class="list-group-item list-group-item-danger">List of service 5 : Upcomming ...</li>
+        <li class="list-group-item list-group-item-primary">List of service 6: Upcomming ...</li>
+        <li class="list-group-item list-group-item-dark">List of service 7 : Upcomming ...</li>
+        <li class="list-group-item list-group-item-light disabled">List of service 8 : Upcomming ...</li>
+     </ul>
+    </div><br>
+<!-- List item end here -->
+   <!-- form table start here-->
+    <div class="d-flex justify-content-center">
+      <form action="#" style="width: 450px;" class="bg-secondary text-light p-5">
+         <h3>Contact me :</h3>
+    <div class="form-group">
+        <label for="fname">First Name</label>
+        <input class="form-control" id="fname" type="text" placeholder="First Name">
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input class="form-control" id="lname" type="text" placeholder="Last Name">
+    </div>
+    <div class="input-group"> <!--form append-->
+        <input class="form-contrlo" type="text" placeholder="Enter gmail">
+        <div class="input-group-append">
+            <span class="input-group-text">@gmail.com</span>
+        </div>
+     </div><br>
+    <div class="form-group">
+        <label for="messege">Your Messege</label>
+        <textarea class="form-control" id="messege" placeholder="Text here"></textarea>
+    </div>
+    <input class="btn btn-primary" type="submit" value="send">
+ </form>
+</div><br>
+<!-- form table start here-->
+<!-- UI & UX text content start here -->
+    <div class="jumbotron text-capitalize bg-info text-light">
+    <div class="text-right">
+         <button class="btn btn-info">Messege <span class="badge badge-danger">100</span></button>
+   </div>
+                <h1>Different of UX / UI design </h1>
+                <p>UX and UI: Two terms that are often used interchangeably, but actually mean very different things. So what exactly is the difference?
+                We’ve all overheard conversations, walking down hip streets of the world’s tech capitals, discussions about the great ‘UX’ of a product, or the poor ‘UI’ of a website. Is it a secret language you will never be privy to? Are these people just using slang to look cool?
+                Well, ok, probably yes to the latter, but a determinate NO to the rest. If you’re keen to learn what exactly UX and UI mean and how they differ, you’ve come to the right place. Below is a breakdown of what we’re going to cover in this article. Read on to learn what the terms “UX” and “UI” mean, which of the two areas of design are better paid, and how to become a UX designer or UI designer.</p>
+  </div><br>
+<!-- UI & UX text content end here -->
+ <!-- Alert box start here -->
+  <div class="alert alert-success text-capitalize text-center">
+      <b>success!</b><p>Please ! wait some day i just early Develope your website to complete your requirement.</p> 
+  </div><br>
+<!-- Alert box end here -->
+<!-- Footer part start here -->
+  <div class="page">
+     <ul class="pagination pagination-lg justify-content-center">
+        <li class="page-item"><a class="page-link" href="">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="">1</a></li>
+        <li class="page-item"><a class="page-link" href="">2</a></li>
+        <li class="page-item"><a class="page-link" href="">3</a></li>
+        <li class="page-item"><a class="page-link" href="">4</a></li>
+        <li class="page-item"><a class="page-link" href="">5</a></li>
+        <li class="page-item"><a class="page-link" href="">Next</a></li>
+    </ul>
+</div>
+
+    <!-- Footer part start here -->
+    <!-- All js file link here -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

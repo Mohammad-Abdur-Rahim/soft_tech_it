@@ -1,0 +1,59 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;}
+
+img{
+    border: 0;
+}
+/* Basic css end*/
+
+h2{
+    text-align: center;
+    background-color:crimson;
+    padding: 20px;
+    box-sizing: border-box;
+    color:oldlace
+
+}
+
+h1{
+    text-align: left;
+}
+form{
+    text-align:start;
+}
+button{
+    background-color:#3b5998;
+    color: white;
+    
+    
+}
+
+
+.reset{
+ background-color:green;
+    color:oldlace
+}
+
+
+a{
+    background-color:#3b5998;
+    color: oldlace;
+}
+
+
+
+
+
+
+
+
+
