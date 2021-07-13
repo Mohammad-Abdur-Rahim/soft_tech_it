@@ -21,22 +21,16 @@
     background-image: url(./img/header.png);
     background-position: bottom center;
 }
-.down-text h1{
-    color: white;
+.down-text h1,.down-text h2{
     font-family:'RobotoSlab-Bold' ;
     margin-bottom: 30px;
-}
-.down-text h4{
     color: #a8a8a8;
-    font-family:'RobotoSlab-Bold' ;
-    margin-bottom: 30px;
-    font-size: 31px;
 }
 .btn{
     background-color: #3f8dbf;
-    color:white;
-    font-family:Arial ;
-    font-weight: bold;
+    /* color:white; */
+    /* font-family:Arial ; */
+    /* font-weight: bold; */
 }
 /* Header part end here */
 /* icon part start here */
@@ -55,52 +49,37 @@
     padding: 45px 0;
     background-color: #f7f7f7;
 }
-.icon-part-1 span i{
-    background-color: #9d9abf;
+.icon-part-1 span i,.icon-part-2 span i,.icon-part-3 span i,.icon-part-4 span i{
     padding: 15px;
     font-size:18px ;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
-.icon-part-2 span i{
-background-color: #d2514b;
-padding: 15px;
-font-size:18px ;
-border-radius: 50%;
-    
+.icon-color1{
+    background-color: #9d9abf;
 }
-.icon-part-3 span i{
-background-color: #66a3c6;
-padding: 15px;
-font-size:18px ;
-border-radius: 50%;
+.icon-color2{
+    background-color: #d2514b;
 }
-.icon-part-4 span i{
-background-color: #e8c04f;
-padding: 15px;
-border-radius: 50%;
-    
+.icon-color3{
+    background-color: #66a3c6;
+}
+.icon-color4{
+    background-color: #e8c04f;
 }
 .hr{
     height: 2px;
     background-color:  #dcdcdc;
 }
-.highlight{
-    text-transform: uppercase;
-    font-family:'RobotoSlab-Bold' ;
-    padding-top: 50px;
-}
+
+
 .latest-work{
-padding: 18px 0;
+    padding: 18px 0;
 }
 .latest-work img{
     width: 100%;
 }
-.latest-work h5{
-    padding-top: 20px;
-}
 .latest-work h6{
     color: #aeaeae;
-    padding-bottom:20px;
     background-color: #f7f7f7;
 }
 .latest-work p{
@@ -112,11 +91,11 @@ padding: 18px 0;
 .testomonial{
     text-align: center;
     padding: 55px 0;
-   background-color: #efefef;
+    background-color: #efefef;
 }
 .testomonial span i{
-color: #cecccc;
-font-size: 30px;
+    color: #cecccc;
+    font-size: 30px;
 }
 .testomonial h6{
     color: #a1a1a1;
@@ -128,18 +107,19 @@ font-size: 30px;
     color: white;
     padding: 60px 0;
 }
-/* details1 work */
-.details1 h4{
+/* details work */
+.details1 h4,.details2 h4,.details3 h4,.details4 h4{
     color: #686666;
     text-transform: uppercase;
     font-size: 20px;
     padding-bottom: 20px;
 }
-.details1 h5{
+/* details1 work */
+ .details1 h5{
     color: #c5c2c2;
     font-size: 13px;
     line-height: 20px;
-}
+} 
 .details1 h6{
     color: #c5c2c2;
     line-height: 28px;
@@ -149,36 +129,31 @@ font-size: 30px;
 }
 /* details2 work */
 .details2 h5{
-    color: #686666;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-.details2 h6{
     font-size: 14px;
     line-height: 22px;
     color:  #c5c2c2;
 }
-.details2 h6 i{
+.details2 h5 i{
     color: #a89574;
 }
 /* details3 work */
-.details3 h5{
+.details3 h4{
     color: #686666;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
-.details3 h6{
+.details3 h5{
     font-size: 14px;
     line-height: 20px;
     color:  #c5c2c2;;
 }
 /* details4 work */
-.details4 h5{
+.details4 h4{
     color: #686666;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
-.details4 h6{
+.details4 h5{
     font-size: 14px;
     line-height: 22px;
     color:  #c5c2c2;;
@@ -191,9 +166,7 @@ font-size: 30px;
 .footer-end h6{
     color:  #c5c2c2;
     padding-top:30px ;
-    
 }
-
 .footer-hr{
     height: 1px;
     width: 1120px;
