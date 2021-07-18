@@ -1,0 +1,50 @@
+.header-top{
+    background-color: #f7fdfe;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+.logo h1{
+    color: #82868f;
+}
+.menu ul li a {
+    color: #82868f;
+}
+.button{
+    background-color: #0ebfdd;
+    border-radius: 30%;
+    color: white;
+}
+/* header top end here */
+
+
+.header-down{
+    background-image: url(img/Template.jpg);
+    padding: 85px;
+    background-position: bottom center;
+}
+.background-txt p{
+    padding-top: 250px;
+}
+
+.background-txt p{
+    text-align: center;
+    color: #f7fdfe;
+    text-transform: capitalize;
+    font-size:40px ;
+    line-height: 75px;
+}
+.background-txt p i{
+    font-size: 10px;
+    line-height: 10px;
+}
+.background-txt h6{
+    text-align: center;
+    color:#f7fdfe;
+    text-transform:capitalize;
+    font-size: 14px;
+    line-height: 22px;
+    
+  
+}
