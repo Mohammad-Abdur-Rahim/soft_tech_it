@@ -1,7 +1,7 @@
 .header-top{
     background-color: #f7fdfe;
     text-transform: uppercase;
-    margin-top: 15px;
+    margin-top: 17px;
     font-family: sans-serif;
     padding: 8px;
 }
@@ -13,21 +13,22 @@
 }
 .button{
     background-color: #0ebfdd;
-    border-radius: 30%;
+    border-radius: 15%;
     color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 0 5px;
 }
 /* header top end here */
-
-
+/* header down start here */
 .header-down{
-    background-image: url(img/Template.jpg);
+    background-image: url(img/Template.png);
     padding: 85px;
     background-position: bottom center;
 }
 .background-txt p{
     padding-top: 250px;
 }
-
 .background-txt p{
     text-align: center;
     color: #f7fdfe;
@@ -41,10 +42,140 @@
 }
 .background-txt h6{
     text-align: center;
-    color:#f7fdfe;
+    color:#dbe1e2;
     text-transform:capitalize;
     font-size: 14px;
     line-height: 22px;
-    
-  
 }
+/* header down end here */
+/* content part start here */
+.about{
+    padding: 45px 0;
+}
+.about h2{
+    color: #0ebfdd;
+    text-align: center;
+    text-transform: capitalize;
+}
+.about p{
+    color: #45494d;
+    text-align: center;
+    text-transform: capitalize;
+}
+.team{
+    background-color: #0ebfdd;
+    padding-bottom: 50px;
+}
+.team h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 40px;
+}
+.person-1{
+float: left;
+margin-left: 290px;
+margin-top: 80px;
+}
+.person-1 h6{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1px;
+    padding-top: 12px;
+}
+.person-1 p{
+    text-align: center;
+    color: #bcedf5;
+    text-transform: capitalize;
+}
+.person-2{
+float: left;
+margin-left: 50px;
+margin-top: 80px;
+overflow: hidden;
+}
+.person-2 h6{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1px;
+    padding-top: 12px;
+}
+.person-2 p{
+    text-align: center;
+    color: #bcedf5;
+    text-transform: capitalize;
+}
+.person-3{
+    margin-right: 220px;
+}
+.person-3 img{
+    /* float: left; */
+    margin-left: 40px;
+    margin-top: 80px;
+     overflow: hidden;
+}
+.person-3 h6{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1px;
+    padding-top: 12px;
+}
+.person-3 p{
+    text-align: center;
+    color: #bcedf5;
+    text-transform: capitalize; 
+}
+.work-us{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 70px; 
+}
+.button1{
+color: rgb(255, 255, 255);
+border:1px solid rgb(238, 236, 236);
+border-radius: 15%;
+}
+/* content part end here */
+/* footer part start here */
+.contact-details{
+    background-color:#282828;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.fotter-menu ul li a {
+    color:#bac0c6;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.font{
+    color:#d7dee4;
+    text-align: right;
+}
+.font a{
+    color: white;
+}
+.font i{
+     padding: 10px;
+    font-size:12px ; 
+    border: 1px solid white;
+    border-radius: 50%; 
+    border-color: white;
+}
+.hr{
+    background-color:#5a5e62;
+    width: 1100px;
+    margin-left: 30px;
+}
+.last-nav{
+  padding-left: 782px;
+}
+.last-nav li a{
+    color:#b3b7bb;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+/* footer part end here */
