@@ -13,11 +13,10 @@
 }
 .button{
     background-color: #0ebfdd;
-    border-radius: 15%;
     color: white;
     text-transform: uppercase;
     font-family: sans-serif;
-    padding: 0 5px;
+    /* padding: 0 5px; */
 }
 /* header top end here */
 /* header down start here */

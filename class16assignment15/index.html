@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 16 | jquery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Section one start here-->
+    <div class="section1"> 
+        <h1>Click koro details debo amare</h1>
+        <p>
+            <strong>Name :</strong> Md Abdur Rahim<br>
+            <strong> age :</strong> 20<br>
+            <strong> location :</strong> sector 10,sunbeeam school road,<br>
+            <strong>Student :</strong> Daffodil International University of Bangladesh<br>
+            <mark> Student of soft-tech it institue</mark>
+        </p>
+    </div>
+     <!--Section one end here-->
+     <!--Section two start here-->
+    <div class="section2">  
+            <h2 class="heading">Amakaee click koro  magic dia chollae asbo tm kase</h2>
+    </div>
+     <!--Section two end here-->
+     <!--Section three start here-->
+    <div class="section3">
+            <button class="btn">Click Me</button>
+            <div class="box"></div>
+    </div><br><br>
+     <!--Section three end here-->
+      <!--Section four start here-->
+    <div class="section4">
+            <h3>Click Here</h3>
+            <div class="box1"></div>
+    </div><br><br>
+     <!--Section four end here-->
+      <!--Section five start here-->
+    <div class="section5">
+            <button class="btn2">Click Me</button>
+            <div class="box2"></div>
+    </div><br><br>
+     <!--Section five end here-->
+      <!--Section six start here-->
+    <div class="section6">
+            <button class="btn3">Click Me</button>
+            <div class="box3"></div>
+    </div><br><br>
+     <!--Section six end here-->
+      <!--Section seven start here-->
+    <div class="section7">
+            <h2>Facebook friend request pataieee kibabbe ta dekko</h2><hr class="hr">
+    </div>
+     <!--Section seven end here-->
+      <!--Section eight start here-->
+    <div class="section8">
+            <p>Add Friend</p>
+            <div class="box4"></div> 
+    </div>
+    <br><br><br><br><br><br>
+     <!--Section eight end here-->
+    <!-- js code start here -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+      
+         $ ('h1').show();             
+         $ ('.section1 p').hide();  
+         $('h1').click(function(){
+             $('.section1 p').show();
+         })
+        //  section one end here
+         $('.section2 h2').click(function(){
+             $('h2').hide();
+         })
+         $('.btn').click(function(){
+             $('.box').slideToggle(1000); 
+         })
+         $('h3').click(function(){
+                $('.box1').fadeToggle(1000);
+            })
+            $('.btn2').click(function(){
+                $('.box2').slideUp(2000);
+            })
+            $('.box2').click(function(){
+                $('.box2').stop();
+            })
+            $('.btn3').click(function(){
+                $('.box3').fadeTo(1000 ,0.3);
+            })
+            $('.section8 p').click(function(){
+                $('.box4').html('<h1>Friend Request send</h1>')
+                $('.box4').css('color','white');
+                $('.box4').css({
+                'padding':'10px',
+                'background':'crimson',
+                })
+                $('p').css('background','green')
+            })
+    </script>
+</body>
+</html>
