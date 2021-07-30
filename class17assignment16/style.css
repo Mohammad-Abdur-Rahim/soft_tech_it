@@ -2,106 +2,32 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
-/* h2{
-  
-    width: 100px;
-    background-color: black;
-    color: rgb(253, 237, 4);
-    padding: 10px;
-    position: fixed;
-    padding: 0;
-    bottom: 30px;
-} */
-/* a{
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: #000;
-    opacity: 0.7;
-    color: rgb(251, 255, 0);
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none;
-    display: none;
-} */
-.box{
-    height: 300px;
-    width: 500px;
-    background-color: red;
-    padding: 20px;
-    float: left;
 
-}
-.box1{
-    height: 300px;
-    width: 500px;
-    background-color: rgb(238, 255, 0);
-    padding: 20px;
-    overflow: hidden;
-
-}
-.box2{
-    height: 300px;
-    width: 500px;
-    background-color: rgb(0, 255, 0);
-    padding: 20px;
-    margin: auto;
-   
-}
-.add-box{
-    height: 300px;
-    width: 300px;
-    background-image: linear-gradient(red,green);
-    border-radius: 50%;
-    margin: auto;
-}
-.box3{
-    height: 500px;
-    width: 500px;
-    background-color: rgb(255, 115, 0);
-    padding: 30px;
-    margin: auto;
-}
-.box3 a{
-  display: inline-block;
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 7%;
-  
-}
-.box3 input{
-    display: block;
-    width: 100%;
-    padding: 7px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    border: none;
-    margin-bottom: 10px;
-}
-.box4{
-    height: 300px;
-    width: 500px;
-    background-color: red;
-    padding: 20px;
-}
-.up a{
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: #000;
-    opacity: 0.7;
-    color: rgb(251, 255, 0);
+.menu{
+    background-color: rgb(73, 72, 72);
+    padding: 15px;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none;
-   
+    top: 0;
+    display:none;
+}
+.one i{
+    color: white;
+}
+.clr{
+    color: white;
+    padding-left: 30px;
+}
+.menu-main{
+    background-color: rgb(73, 72, 72);
+    padding: 15px;
+}
+.one-1 i{
+    color: white;
+}
+.clr-main{
+    color: white;
+    padding-left: 30px;
+}
+.text{
+    color: rgb(44, 31, 31);
 }
